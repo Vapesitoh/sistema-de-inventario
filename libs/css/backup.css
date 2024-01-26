@@ -1,0 +1,63 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.card {
+    width: calc(30% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card img {
+    max-width: 100%;
+    height: 12rem;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+.custom-file-input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.custom-file-label {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.btn-crear {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+
+.btn-cargar {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 16px;
+}
